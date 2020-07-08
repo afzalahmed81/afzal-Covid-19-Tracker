@@ -32,7 +32,7 @@ jobs:
         
     - name: Creating build
       run: yarn build
-      run: yarn add react-countup
+      
 
     # - name: Install react countup
     #   run: npm install react-countup
