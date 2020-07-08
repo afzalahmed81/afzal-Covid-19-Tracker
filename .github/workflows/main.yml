@@ -33,10 +33,7 @@ jobs:
     - name: Creating build
       run: yarn build
       
-
-    # - name: Install react countup
-    #   run: npm install react-countup
-        
+         
     - name: Installing surge
       run: npm install -g surge
       
