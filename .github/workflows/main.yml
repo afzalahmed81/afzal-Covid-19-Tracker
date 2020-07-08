@@ -33,7 +33,7 @@ jobs:
     - name: Creating build
       run: yarn build
 
-      - name: Install react countup
+    - name: Install react countup
       uses: yarn add react-countup
       with:
         cmd: install 
